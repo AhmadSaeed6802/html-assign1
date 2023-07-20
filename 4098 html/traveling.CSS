@@ -1,0 +1,124 @@
+/* Part 1: Define Overall Styling */
+body {
+    margin: 0;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+    border-radius: 50%;
+  }
+  
+  /* Part 2: Header Styling */
+  header {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  h2{
+    color: #00a2ff;
+  }
+  
+  /* Part 3: Navigation Bar Styling */
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Part 4: Section Styling */
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  /* Part 5: Image Styling */
+  img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+  /* Part 6: Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Part 7: Form Styling */
+  form {
+    width: 70%;
+    margin: 0 auto;
+   
+  }
+  
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+   
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  .subscribe-container{
+    display: flex;
+
+ }
+  
+  /* Part 8: Footer Styling */
+  footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Part 9: Additional Styles */
+ 
+  /* additional styles you'd like to enhance the aesthetics of the webpage */
+  .Table{
+    background-color: #d9ff00;
+  }
+  .gender{
+    display: flex;
+    width: 40%;
+  }
+  #submitButton{
+    background-color: #00a2ff;
+    
+  }
